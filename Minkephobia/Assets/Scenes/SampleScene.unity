@@ -4099,7 +4099,7 @@ GameObject:
   - component: {fileID: 683547890}
   - component: {fileID: 683547889}
   - component: {fileID: 683547888}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SPAWN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4126,7 +4126,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 0
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 826369596}
 --- !u!33 &683547889
 MeshFilter:
@@ -15075,7 +15075,7 @@ Mesh:
     m_Center: {x: 7.312171, y: 0.9975413, z: -12.710717}
     m_Extent: {x: 11.668298, y: 1.3962144, z: 20.688843}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1.0000188
@@ -22356,8 +22356,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 52ffbccca1224d143a6bbbca626ae566, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.884
   m_Pitch: 1.5
   Loop: 0
